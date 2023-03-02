@@ -40,3 +40,4 @@ class DirectorView(Resource):
     def delete(self, bid):
         director_service.delete(bid)
         return "", 204
+

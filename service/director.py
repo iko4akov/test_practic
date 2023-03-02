@@ -17,7 +17,7 @@ class DirectorService:
     def update(self, director_d):
         return self.dao.update(director_d)
 
-    def partially_update(self, director_d):
+    def partially_update(self, director_d: dict):
         director = self.get_one(director_d["id"])
         if "name" in director_d:
             director.name = director_d.get("name")
