@@ -14,7 +14,7 @@ _Это набор тестов для класса `MovieService`, которы
 
 1. Clone the repository to your local machine.
 2. Navigate to the `tests` directory.
-3. Run the command `python -m pytest`.
+3. Run the command __`python -m pytest`__.
 
 ---
 
